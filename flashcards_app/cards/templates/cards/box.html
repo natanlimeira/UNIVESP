@@ -1,5 +1,4 @@
 
-
 {% extends "cards/base.html" %}
 {% load humanize %}
 
@@ -11,9 +10,9 @@
         {% include "cards/card.html" %}
     {% endfor %}
 
-    {% if check_card %}
+    <!-- {% if check_card %}
         {% include "cards/card.html" with card=check_card %}
-    {% endif %}
+    {% endif %} -->
 
 {% endblock content %}
 
